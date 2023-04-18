@@ -1,19 +1,50 @@
 {
-  "posts": [
+  "users": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "tone",
+      "email": "tone@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "qaz",
+      "id": 3
+    },
+    {
+      "name": "Hola",
+      "email": "hola@gmail.com",
+      "password": "hola",
+      "id": 4
     }
   ],
-  "comments": [
+  "restaurants": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "Antonio Villa",
+      "address": "antonio@gmail.com",
+      "contact": "6641562535",
+      "id": 1
+    },
+    {
+      "name": "Test",
+      "address": "casiopea #2987",
+      "contact": "6632452767",
+      "id": 2
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "citas": [
+    {
+      "name": "Juan",
+      "address": "04 Mayo 7:00 pm",
+      "contact": "6643425615",
+      "id": 1
+    },
+    {
+      "name": "test",
+      "address": "23 mayo 8:00 pm",
+      "contact": "6637865739",
+      "id": 2
+    }
+  ]
 }
